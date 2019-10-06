@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         img = findViewById(R.id.profile);
         img.setVisibility(View.INVISIBLE);
         final String password = "12345678";
-
+        //this is a comment
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
